@@ -294,7 +294,7 @@ i {
 
 
 
-/* Naviagation Button */
+/*==================Naviagation Button=======================*/
 
 .toggle button{
     cursor: pointer;
@@ -338,7 +338,7 @@ button{
 }
 
 
-<!--BlogPost Section-->
+<!---------BlogPost Section----------->
 
 /* Enoch Blog */
 .blog-post {
@@ -434,7 +434,7 @@ button{
 }
 
 .section-title::before{
-    content: attr(data-name);
+    content: attr(data-name);       
     font-size: var(--font-size-lg);
     text-transform: uppercase;
     opacity: .1;
